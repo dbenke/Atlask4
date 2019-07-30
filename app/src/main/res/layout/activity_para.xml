@@ -1,0 +1,220 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/plexo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParaActivity">
+
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/viewA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.daniel.benke.atlask4.ReclickableTabHost
+                android:id="@+id/tabHost"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:tabMode="scrollable">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:id="@android:id/tabcontent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:id="@+id/tab2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#5b89ff"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tabg"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="0dip"
+                                android:text="Paratireóide" />
+
+                            <ImageView
+                                android:id="@+id/itab2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="matrix"
+                                android:src="@drawable/para02" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/tab3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#5b89ff"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:text="Tecido conjuntivo" />
+
+                            <ImageView
+                                android:id="@+id/itab3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="0dp"
+                                android:scaleType="matrix"
+                                android:src="@drawable/para03" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/tab4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#5b89ff"
+                            android:orientation="vertical"
+                            android:scaleType="matrix">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:text="Tireóide" />
+
+                            <ImageView
+                                android:id="@+id/itab4"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="0dp"
+                                android:scaleType="matrix"
+                                android:src="@drawable/para04" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/tab5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#5b89ff"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:text="Zoom" />
+
+                            <ImageView
+                                android:id="@+id/itab5"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="0dp"
+                                android:scaleType="matrix"
+                                android:src="@drawable/para01" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/tabClean"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#5b89ff"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:text="Paratireóide - glândula cordonal - Hematoxilina/Eosina" />
+
+                            <ImageView
+                                android:id="@+id/itab1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="-0dp"
+                                android:scaleType="matrix"
+                                android:src="@drawable/para01" />
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true">
+
+                        <ImageView
+                            android:id="@+id/previous"
+                            android:layout_width="40dp"
+                            android:layout_height="32dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:alpha="0.6"
+                            android:src="@drawable/previous"
+                            android:visibility="invisible" />
+
+                        <ImageView
+                            android:id="@+id/next"
+                            android:layout_width="40dp"
+                            android:layout_height="32dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:alpha="0.6"
+                            android:src="@drawable/next" />
+
+                        <HorizontalScrollView
+                            android:id="@+id/horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:alpha="0.75"
+                            android:background="#5b89ff"
+                            android:scrollbars="horizontal">
+
+                            <LinearLayout
+                                android:id="@+id/home_menu"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+                                <TabWidget
+                                    android:id="@android:id/tabs"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:showDividers="middle"></TabWidget>
+                            </LinearLayout>
+                        </HorizontalScrollView>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+
+            </com.daniel.benke.atlask4.ReclickableTabHost>
+
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabzoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:src="@drawable/zoom"
+            app:layout_anchor="@id/viewA"
+            app:layout_anchorGravity="bottom|right" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>
+
+
+
+
