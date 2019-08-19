@@ -93,21 +93,21 @@ public class MandibularZoomActivity extends AppCompatActivity implements Gesture
         TabHost.TabSpec spec = host.newTabSpec("Tab One");
 
         //Tab 2
-        spec = host.newTabSpec("túbulo mucoso");
+        spec = host.newTabSpec("tubulomucoso");
         spec.setContent(R.id.tab2);
         spec.setIndicator("túbulo mucoso");
         host.addTab(spec);
 
         //Tab 3
-        spec = host.newTabSpec("ácino seroso");
+        spec = host.newTabSpec("acinoseroso");
         spec.setContent(R.id.tab3);
         spec.setIndicator("ácino seroso");
         host.addTab(spec);
 
         //Tab 2
-        spec = host.newTabSpec("Dutos");
+        spec = host.newTabSpec("ductoz");
         spec.setContent(R.id.tab4);
-        spec.setIndicator("Dutos");
+        spec.setIndicator("ducto intercalado");
         host.addTab(spec);
 
         ViewTreeObserver vto = hs.getViewTreeObserver();

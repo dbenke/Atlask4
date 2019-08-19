@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Atlask 1.5</string>
+    <string name="app_name">Atlask Epitélios</string>
 
     <string name="action_settings">Sobre</string>
 
@@ -14,6 +14,7 @@ O epitélio do plexo coróide é formado por uma camada simples de células cúb
 </string>
     <string name="vesicula_texto">A vesícula biliar está aderida à superfície inferior do fígado e armazena bile.\n\n
         A parede vesicular consiste em uma membrana mucosa composta de epitélio colunar (prismático ou cilíndrico) simples e lamina própria, uma camada de músculo liso , uma camada de tecido conjuntivo perimuscular e uma membrana serosa.\n\n
+        As células epiteliais apresentam núcleo para basal (próximo ao tecido conjuntivo).\n\n
         A lâmina própria desta mucosa é constituída de tecido conjuntivo frouxo rico em fibras elásticas, vasos sanguíneos e linfáticos, que drenam a água reabsorvida da bile durante seu processo de concentração.\n\n
         As fibras da camada muscular (músculo liso) se dispõem em orientações longitudinal, transversal e oblíqua, mas não chegam a constituir camadas distintas.</string>
     <string name="esofago_texto">  O esôfago é uma estrutura tubular do trato digestivo por onde os alimentos passam para o estômago. \n\n
@@ -23,7 +24,7 @@ O epitélio do plexo coróide é formado por uma camada simples de células cúb
         A submucosa é constituída por tecido conjuntivo.</string>
     <string name="pele_texto"> A pele possui epitélio estratificado pavimentoso e em sua superfície há uma camada de queratina. Conforme as células vão envelhecendo e enchendo de queratina, novas células vão surgindo na camada de baixo e substituindo as células mortas que se descamam.\n\n
         A queratina é uma substância produzida pela pele que possui função de proteção, formando uma barreira mecânica. Estas células que compõe a queratina estão mortas e formam camadas que protegem as células vivas que estão logo abaixo.\n\n
-        A pele, além de todas as terminações nervosas que possui, possui receptores encapsulados sensíveis a pressão, temperatura, dor, coceira, entre inúmeras outras sensações. O corpúsculo de Vaterpattini é um receptor de pressão.
+        A pele, além de todas as terminações nervosas que possui, possui receptores encapsulados sensíveis a pressão, temperatura, dor, coceira, entre inúmeras outras sensações. O corpúsculo de Vater Pacini, ou lamelar, é um receptor de pressão e está envolto por tecido conjuntivo rico em colágeno.
         </string>
     <string name="bexiga_texto"> O epitélio estratificado de transição da bexiga é composto por várias camadas de células achatadas e sem forma. Este tecido é muito elástico o que permite a bexiga aumentar e diminuir conforme a quantidade de líquido.\n\n
         Quando a bexiga está vazia este epitélio tem aspecto enrugado, as células mais externas possuem aspecto globoso e superfície convexa.\n\n
@@ -31,9 +32,10 @@ O epitélio do plexo coróide é formado por uma camada simples de células cúb
          O tecido muscular da bexiga é liso, disposto em três camadas. Na parte de dentro e de fora suas fibras musculares lisas estão dispostas de forma longitudinal e na camada entre elas de forma circular.\n\n
 
         </string>
-    <string name="mandibular_texto">  As glândulas salivares, como a glândula submandibular, consistem em terminações secretoras e em um sistema de dutos ramificados que se arranjam em lóbulos. Os lóbulos são separados por septos, tecido conjuntivo que contém vasos sanguíneos, nervoss e dutos maiores. As terminações secretoras possuem dois tipos de células secretoras - serosas ou mucosas, além das células mioepiteliais não secretoras.\n\n
-        Ácinos serosos: Glândulas formadas por células de formato piramidal, com uma base larga que repousa sobre uma lâmina basal e um ápice com microvilos pequenos e irregulares voltados para o lúmen reduzido.\n\n
-        Células mucosas: possuem geralmente formato cubóide ou colunar, seu núcleo é oval e encontra-se pressionado junto a base da célula.\n\n
+    <string name="mandibular_texto">  As glândulas salivares a exemplo da glândula submandibular, consistem em unidades secretoras e em um sistema de ductos ramificados que se arranjam em lóbulos. A glândula submandibular está sub-dividida em lóbulos os quais estão separados por septos, tecido conjuntivo que contém vasos sanguíneos, nervos e ductos de calibre progressivamente maiores.\n\n
+        As unidades secretoras possuem dois tipos de células secretoras - serosas ou mucosas, além das células mioepiteliais não secretoras.\n\n
+        Ácinos serosos: Formado por células de formato piramidal, com uma base larga que repousa sobre uma lâmina basal e um ápice com microvilos pequenos e irregulares voltados para o lúmen reduzido.\n\n
+        Ácinos túbulo-mucosos: Suas células possuem geralmente um formato cubóide ou colunar baixo, seu núcleo é oval e encontra-se próximo à base da célula.\n\n
         </string>
 
     <string name="tireoide_texto"> A tireoide tem como unidade anátomo-funcional folículos (ou visículas) constituídos por uma camada epitelial simples (células cubóides) que encerram uma cavidade geralmente repleta de colóide (material secretado).\n\n

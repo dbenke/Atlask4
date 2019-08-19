@@ -19,7 +19,8 @@
             android:layout_marginLeft="4dp"
             android:layout_marginRight="4dp"
 
-            android:text="O Atlas Virtual é um atlas de imagens histlógicas interativo. Espera-se que este material didático virtual propicie um ambiente de aprendizagem contemporâneo no qual o estudante, através da interatividade com o aplicativo, se torne o centro do processo de aprendizagem" />
+            android:text="O AtlasK é um atlas virtual de imagens histlógicas interativo. Espera-se que este material didático virtual propicie um ambiente de aprendizagem contemporâneo no qual o estudante, através da interatividade com o aplicativo, se torne o centro do processo de aprendizagem.\n\n
+            contato: www.benke.ufpr.br" />
 
 
 

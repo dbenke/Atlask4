@@ -119,7 +119,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_marginTop="0dp"
                                 android:scaleType="matrix"
-                                android:src="@drawable/para01" />
+                                android:src="@drawable/para05" />
                         </LinearLayout>
 
                         <LinearLayout

@@ -116,14 +116,14 @@ public class TireoideZoomActivity extends AppCompatActivity implements GestureDe
 
 
         //Tab 5
-        spec = host.newTabSpec("epitélio");
+        spec = host.newTabSpec("celfolicular");
         spec.setContent(R.id.tab5);
-        spec.setIndicator("epitélio");
+        spec.setIndicator("cél. folicular");
         host.addTab(spec);
 
 
         //Tab 6
-        spec = host.newTabSpec("células C");
+        spec = host.newTabSpec("célulasc");
         spec.setContent(R.id.tab6);
         spec.setIndicator("células C");
         host.addTab(spec);

@@ -43,17 +43,19 @@ public class PlexoZoomActivity extends AppCompatActivity implements GestureDetec
         iv1 = (ImageView) findViewById(R.id.itab1);
         iv2 = (ImageView) findViewById(R.id.itab2);
         iv3 = (ImageView) findViewById(R.id.itab3);
+        iv4 = (ImageView) findViewById(R.id.itab4);
+
 
         matrix.setScale(scale, scale);
         iv1.setImageMatrix(matrix);
         iv2.setImageMatrix(matrix);
         iv3.setImageMatrix(matrix);
-
+        iv4.setImageMatrix(matrix);
 
         iv1.setScaleType(ImageView.ScaleType.FIT_START);
         iv2.setScaleType(ImageView.ScaleType.FIT_START);
         iv3.setScaleType(ImageView.ScaleType.FIT_START);
-
+        iv4.setScaleType(ImageView.ScaleType.FIT_START);
 
         scaleGestureDetector = new ScaleGestureDetector(this, new ScaleListener());
 
@@ -95,9 +97,15 @@ public class PlexoZoomActivity extends AppCompatActivity implements GestureDetec
         host.addTab(spec);
 
         //Tab 3
-        spec = host.newTabSpec("vaso sanguíneo");
+        spec = host.newTabSpec("vasosanguíneo");
         spec.setContent(R.id.tab3);
         spec.setIndicator("vaso sanguíneo");
+        host.addTab(spec);
+
+        //Tab 3
+        spec = host.newTabSpec("hemácia");
+        spec.setContent(R.id.tab4);
+        spec.setIndicator("hemácia");
         host.addTab(spec);
 
 

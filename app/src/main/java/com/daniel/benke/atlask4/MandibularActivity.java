@@ -108,21 +108,21 @@ public class MandibularActivity extends AppCompatActivity implements GestureDete
         host.addTab(spec);
 
         //Tab 3
-        spec = host.newTabSpec("tubulo mucosos");
+        spec = host.newTabSpec("celulasmucosas");
         spec.setContent(R.id.tab3);
-        spec.setIndicator("túbulo mucosos");
+        spec.setIndicator("células mucosas");
         host.addTab(spec);
 
         //Tab 4
-        spec = host.newTabSpec("ácinos serosos");
+        spec = host.newTabSpec("celulasserosas");
         spec.setContent(R.id.tab4);
-        spec.setIndicator("ácinos serosos");
+        spec.setIndicator("células serosas");
         host.addTab(spec);
 
         //Tab 5
-        spec = host.newTabSpec("dutos");
+        spec = host.newTabSpec("ductos");
         spec.setContent(R.id.tab5);
-        spec.setIndicator("dutos");
+        spec.setIndicator("ductos");
         host.addTab(spec);
 
         //Tab 6

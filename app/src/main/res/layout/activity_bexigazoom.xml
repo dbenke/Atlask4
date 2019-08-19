@@ -51,7 +51,7 @@
                                 android:id="@+id/itab2"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:scaleType="matrix"
+                                android:scaleType="fitStart"
                                 android:src="@drawable/bexigaz2" />
                         </LinearLayout>
 
@@ -73,7 +73,7 @@
                                 android:id="@+id/itab3"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:scaleType="matrix"
+                                android:scaleType="fitStart"
                                 android:src="@drawable/bexigaz3" />
                         </LinearLayout>
 
@@ -95,7 +95,7 @@
                                 android:id="@+id/itab4"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:scaleType="matrix"
+                                android:scaleType="fitStart"
                                 android:src="@drawable/bexigaz4" />
                         </LinearLayout>
 
@@ -110,14 +110,14 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_alignParentTop="true"
-                                android:text="Bexiga - Mallory" />
+                                android:text="Bexiga - Hematoxilina/Eosina" />
 
                             <ImageView
                                 android:id="@+id/itab1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_marginTop="-0dp"
-                                android:scaleType="matrix"
+                                android:scaleType="fitStart"
                                 android:src="@drawable/bexigaz1" />
                         </LinearLayout>
                     </FrameLayout>

@@ -56,50 +56,6 @@
                         </LinearLayout>
 
                         <LinearLayout
-                            android:id="@+id/tab3"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="#5b89ff"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:id="@+id/tabg"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:padding="0dip"
-                                android:text="Glândulas mucosas" />
-
-                            <ImageView
-                                android:id="@+id/itab3"
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:scaleType="matrix"
-                                android:src="@drawable/vesiculaz3" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:id="@+id/tab4"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="#5b89ff"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:id="@+id/tabg"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:padding="0dip"
-                                android:text="Seios Rokitansky" />
-
-                            <ImageView
-                                android:id="@+id/itab4"
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:scaleType="matrix"
-                                android:src="@drawable/vesiculaz4" />
-                        </LinearLayout>
-
-                        <LinearLayout
                             android:id="@+id/tabClean"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"

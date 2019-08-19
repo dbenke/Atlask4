@@ -96,10 +96,10 @@ public class PlexoActivity extends AppCompatActivity implements GestureDetector.
         TabHost.TabSpec spec = host.newTabSpec("Tab One");
 
         //Tab 2
-        spec = host.newTabSpec("plexo coróide");
-        spec.setContent(R.id.tab2);
-        spec.setIndicator("plexo coróide");
-        host.addTab(spec);
+      //  spec = host.newTabSpec("plexo coróide");
+       // spec.setContent(R.id.tab2);
+        //spec.setIndicator("plexo coróide");
+        //host.addTab(spec);
 
         //Tab 3
         spec = host.newTabSpec("epitélio");

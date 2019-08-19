@@ -108,7 +108,7 @@ public class BexigaActivity extends AppCompatActivity implements GestureDetector
         host.addTab(spec);
 
         //Tab 5
-        spec = host.newTabSpec("vaso sanguíneo");
+        spec = host.newTabSpec("vasosanguineo");
         spec.setContent(R.id.tab5);
         spec.setIndicator("vaso sanguíneo");
         host.addTab(spec);

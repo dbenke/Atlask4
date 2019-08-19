@@ -111,7 +111,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:padding="0dip"
-                                android:text="Epitélio simples cúbico" />
+                                android:text="Tecido epitelial glandular cúbico" />
 
                             <ImageView
                                 android:id="@+id/itab5"

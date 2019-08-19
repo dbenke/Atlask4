@@ -42,21 +42,13 @@ public class VesiculaZoomActivity extends AppCompatActivity implements GestureDe
 
         iv1 = (ImageView) findViewById(R.id.itab1);
         iv2 = (ImageView) findViewById(R.id.itab2);
-        iv3 = (ImageView) findViewById(R.id.itab3);
-        iv4 = (ImageView) findViewById(R.id.itab4);
 
 
         matrix.setScale(scale, scale);
-        iv1.setImageMatrix(matrix);
-        iv2.setImageMatrix(matrix);
-        iv3.setImageMatrix(matrix);
-        iv4.setImageMatrix(matrix);
 
 
         iv1.setScaleType(ImageView.ScaleType.FIT_START);
         iv2.setScaleType(ImageView.ScaleType.FIT_START);
-        iv3.setScaleType(ImageView.ScaleType.FIT_START);
-        iv4.setScaleType(ImageView.ScaleType.FIT_START);
 
 
         scaleGestureDetector = new ScaleGestureDetector(this, new ScaleListener());
@@ -96,18 +88,6 @@ public class VesiculaZoomActivity extends AppCompatActivity implements GestureDe
         spec = host.newTabSpec("epitélio");
         spec.setContent(R.id.tab2);
         spec.setIndicator("epitélio");
-        host.addTab(spec);
-
-        //Tab 3
-        spec = host.newTabSpec("glândula mucosa");
-        spec.setContent(R.id.tab3);
-        spec.setIndicator("glândula mucosa");
-        host.addTab(spec);
-
-        //Tab 2
-        spec = host.newTabSpec("seios Rokitansky");
-        spec.setContent(R.id.tab4);
-        spec.setIndicator("seios Rokitansky");
         host.addTab(spec);
 
         ViewTreeObserver vto = hs.getViewTreeObserver();
@@ -218,25 +198,6 @@ public class VesiculaZoomActivity extends AppCompatActivity implements GestureDe
              //      currY = ev.getY();
 
 
-                if (iv2.getScrollX() + (prevX - currX) > 990){
-                    iv1.scrollBy((int) (prevX - currX), 0);
-                    iv2.scrollBy((int) (prevX - currX), 0);
-                    iv3.scrollBy((int) (prevX - currX), 0);
-                    iv4.scrollBy((int) (prevX - currX), 0);
-
-
-                }
-
-                if (iv2.getScrollY() + (prevY - currY) >990){
-                //if (iv3.getScrollX()+(prevX - currX)>760*scale/2) currX=prevX;
-                //if (iv3.getScrollX()+(prevY - currY)>760/scale) currY=prevY;
-                    iv1.scrollBy(0, (int) (prevY - currY));
-                    iv2.scrollBy(0, (int) (prevY - currY));
-                    iv3.scrollBy(0, (int) (prevY - currY));
-                    iv4.scrollBy(0, (int) (prevY - currY));
-
-
-                }
 
 
 /*
@@ -277,13 +238,10 @@ public class VesiculaZoomActivity extends AppCompatActivity implements GestureDe
         @Override
         public boolean onScale(ScaleGestureDetector detector) {
 
-            scale *= detector.getScaleFactor();
-            scale = Math.max(0.45f, Math.min(scale, 3.0f));
 
             //matrix.setTranslate(scaleGestureDetector.getFocusX(),scaleGestureDetector.getFocusY());
             //matrix.setScale(scale, scale, scaleGestureDetector.getFocusX(), scaleGestureDetector.getFocusY());
 
-            matrix.setScale(scale, scale);
 
             //float scaleFactor = detector.getScaleFactor();
             //scaleFactor = Math.max(0.1f, Math.min(scaleFactor, 5.0f));
@@ -299,10 +257,6 @@ public class VesiculaZoomActivity extends AppCompatActivity implements GestureDe
             iv3.setY(cy);
             iv4.setY(cy);
 */
-            iv1.setImageMatrix(matrix);
-            iv2.setImageMatrix(matrix);
-            iv3.setImageMatrix(matrix);
-            iv4.setImageMatrix(matrix);
 
 
 
@@ -333,14 +287,6 @@ public class VesiculaZoomActivity extends AppCompatActivity implements GestureDe
 
     @Override
     public boolean onDoubleTapEvent(MotionEvent motionEvent) {
-        scale = .5f;
-        matrix.setScale(scale, scale);
-        iv1.setImageMatrix(matrix);
-        iv2.setImageMatrix(matrix);
-        iv3.setImageMatrix(matrix);
-        iv4.setImageMatrix(matrix);
-
-
 
         return false;
     }

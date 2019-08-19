@@ -89,7 +89,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_alignParentTop="true"
-                                android:text="Tecido conjuntivo frouxo" />
+                                android:text="Tecido conjuntivo denso não modelado" />
 
                             <ImageView
                                 android:id="@+id/itab4"
@@ -111,7 +111,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_alignParentTop="true"
-                                android:text="Tecido adiposo" />
+                                android:text="Tecido adiposo unilocular" />
 
                             <ImageView
                                 android:id="@+id/itab5"
@@ -133,7 +133,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_alignParentTop="true"
-                                android:text="Corpúsculo de Vaterpattini" />
+                                android:text="Corpúsculo de Vater Pacini" />
 
                             <ImageView
                                 android:id="@+id/itab6"

@@ -3,6 +3,7 @@
     package="com.daniel.benke.atlask4">
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
 
     <application
@@ -43,8 +44,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".PlexoTextoActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".PlexoActivity"/>
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".VesiculaActivity"
             android:screenOrientation="portrait" />
@@ -53,8 +53,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".VesiculaTextoActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".VesiculaActivity"/>
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".EsofagoActivity"
             android:screenOrientation="portrait" />
@@ -66,15 +65,13 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".EsofagoTextoActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".EsofagoActivity"/>
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".PeleActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".PeleTextoActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".PeleActivity"/>
+            android:screenOrientation="portrait"/>
 
         <activity
             android:name=".BexigaActivity"
@@ -84,8 +81,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".BexigaTextoActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".BexigaActivity"/>
+            android:screenOrientation="portrait"/>
 
         <activity
             android:name=".MandibularActivity"
@@ -95,16 +91,14 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".MandibularTextoActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".MandibularActivity"/>
+            android:screenOrientation="portrait"/>
 
         <activity
             android:name=".TireoideActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".TireoideTextoActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".ParaActivity"/>
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".TireoideZoomActivity"
             android:screenOrientation="portrait" />
@@ -114,8 +108,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".ParaTextoActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".ParaActivity"/>
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".ParaZoomActivity"
             android:screenOrientation="portrait" />

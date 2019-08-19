@@ -129,9 +129,9 @@ public class PeleActivity extends AppCompatActivity implements GestureDetector.O
         host.addTab(spec);
 
         //Tab 6
-        spec = host.newTabSpec("vaterpattini");
+        spec = host.newTabSpec("vaterpacini");
         spec.setContent(R.id.tab6);
-        spec.setIndicator("vaterpattini");
+        spec.setIndicator("vater pacini");
         host.addTab(spec);
 
 

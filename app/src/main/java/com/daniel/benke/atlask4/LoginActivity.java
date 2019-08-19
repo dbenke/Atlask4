@@ -45,11 +45,15 @@ public class LoginActivity extends AppCompatActivity {
 
                     login = login.replaceAll("\\W+", "_");
                     login = login.replaceAll("é", "e");
+                    login = login.replaceAll("ê", "e");
                     login = login.replaceAll("á", "a");
                     login = login.replaceAll("ó", "o");
                     login = login.replaceAll("ã", "a");
+                    login = login.replaceAll("í", "i");
+                    login = login.replaceAll("ç", "c");
+
                     StringBuilder str = new StringBuilder(login);
-                    str.insert(0, "a_");
+                    //str.insert(0, "a_");
                     login = String.valueOf(str);
                          //  FirstActivity.setNomeLogin(login);
 

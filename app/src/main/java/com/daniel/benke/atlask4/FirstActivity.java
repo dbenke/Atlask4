@@ -105,14 +105,14 @@ public class FirstActivity extends AppCompatActivity {
 
                         break;
 
-                    case "Tireóide":
+                    case "Tireoide":
                         //Toast.makeText(view.getContext(), "clicou na lingua]" , Toast.LENGTH_SHORT).show();
                         nextScreen = new Intent(getApplicationContext(), TireoideActivity.class);
                         startActivity(nextScreen);
 
                         break;
 
-                    case "Paratireóide":
+                    case "Paratireoide":
                         //Toast.makeText(view.getContext(), "clicou na lingua]" , Toast.LENGTH_SHORT).show();
                         nextScreen = new Intent(getApplicationContext(), ParaActivity.class);
                         startActivity(nextScreen);
@@ -159,7 +159,7 @@ public class FirstActivity extends AppCompatActivity {
             editor.putBoolean("NameKey", true);
             editor.apply();
         } else {
-           // nomelogin = sharedpreferences.getString("loginame", "sharedfalse");
+            nomelogin = sharedpreferences.getString("loginame", "sharedfalse");
           //  Toast.makeText(FirstActivity.this, "nomelogin " + nomelogin, Toast.LENGTH_SHORT).show();
 
 
@@ -177,8 +177,8 @@ public class FirstActivity extends AppCompatActivity {
 
         String filename = "Telas.txt";
         String filepath = "MyFileStorage";
-        //String upLoadServerUri = "http://aztrau9.000webhostapp.com/upload.php";
-        String upLoadServerUri = "http://www.benke.ufpr.br/upload.php";
+        String upLoadServerUri = "http://aztrau9.000webhostapp.com/uploadepitelio.php";
+        //String upLoadServerUri = "http://www.benke.ufpr.br/upload2.php";
 
         String sourceFileUri = getExternalFilesDir(filepath) + filename;
         Log.v("sourceFileUri", " exist : " + sourceFileUri);
@@ -352,8 +352,8 @@ public class FirstActivity extends AppCompatActivity {
         allItems.add(new ItemObject("Pele grossa", R.drawable.pele01));
         allItems.add(new ItemObject("Bexiga", R.drawable.bexiga01));
         allItems.add(new ItemObject("Glândula submandibular", R.drawable.mandibular01));
-        allItems.add(new ItemObject("Tireóide", R.drawable.tireoide01));
-        allItems.add(new ItemObject("Paratireóide", R.drawable.para01));
+        allItems.add(new ItemObject("Tireoide", R.drawable.tireoide01));
+        allItems.add(new ItemObject("Paratireoide", R.drawable.para01));
 
 
         return allItems;
